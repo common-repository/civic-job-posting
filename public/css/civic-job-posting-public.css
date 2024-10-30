@@ -1,0 +1,177 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.cjp-job-post-group{
+	padding:  30px;
+	background-color: #fff;
+	max-width: 1245px;
+	margin: 0 auto;
+}
+
+.cjp-job-post-group .cjp-job-post-header{
+	clear: both;
+}
+.cjp-job-post-group .cjp-job-post-header h1{
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 30px;
+	margin-top: 0;
+}
+.cjp-job-post-group .cjp-job-post-header .cjp-btn-apply{
+	float: right;
+	margin: 0;
+}
+.cjp-job-post-group .cjp-job-post-content {
+	border-bottom: 1px solid rgba(0,0,0,0.25);
+	padding-bottom: 20px;
+}
+.cjp-job-post-group .cjp-job-post-content p:empty{
+	display: none;
+}
+.cjp-job-post-group .cjp-job-post-box-content p:empty{
+	display: none;
+}
+
+.cjp-job-post-group .cjp-flex-wrap{
+	display: flex;
+	flex-wrap: wrap;
+}
+.cjp-job-post-group .cjp-job-extra-information{
+	border-bottom: 1px solid rgba(0,0,0,0.25);
+	padding-bottom: 20px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.cjp-job-post-group .cjp-job-extra-information >div{
+	width: 33.3333%;
+	padding: 10px;
+}
+.cjp-job-post-group .cjp-job-extra-information .cjp-job-extra-information-box h5 {
+	margin-top: 0;
+	font-size: 1.15em;
+	margin-bottom: 8px;
+}
+.cjp-job-post-group .cjp-job-extra-information .cjp-job-extra-information-box ul{
+	margin: 0;
+	margin-bottom: 7px;
+	padding: 0;
+	list-style: none;
+	line-height: 1.3em;
+}
+.cjp-job-post-group .cjp-job-extra-information .cjp-job-extra-information-box ul li{
+	font-size: 15px;
+	display: inline-block;
+	padding-right: 5px;
+	vertical-align: middle;
+	line-height: 1.3em;
+}
+
+.cjp-job-post-group .cjp-job-extra-information .cjp-job-extra-information-box .cjp-employment-type span:after{
+	content: ",";
+	display: inline-block;
+	padding-right: 5px;
+}
+.cjp-job-post-group .cjp-job-extra-information .cjp-job-extra-information-box .cjp-employment-type span:last-child:after, .cjp-job-post-group .cjp-job-extra-information .cjp-job-extra-information-box .cjp-employment-type span:empty:after{
+	content: none;
+}
+.cjp-job-post-group .cjp-btn-apply{
+	display: inline-block;
+	min-width: 130px;
+	text-align: center;
+	margin-top: 40px;
+	border: 2px solid #000000;
+	color:#000000;
+	padding: 6px 20px;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 1.4em;
+	transition: 250ms all;
+}
+.cjp-job-post-group .cjp-btn-apply:hover{
+	background-color: #000000;
+	color:#ffffff;
+	transition: 250ms all;
+}
+.cjp-job-post-group .cjp-btn-apply:visited{
+	color:#000000;
+}
+.cjp-job-post-group .cjp-btn-apply:visited:hover{
+	color:#ffffff;
+}
+.cjp-job-post-group .cjp-job-post-box{
+	border: 1px solid rgba(0,0,0,0.25);
+	padding: 40px;
+	margin: 40px 0;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
+}
+.cjp-job-post-group .cjp-job-post-box .cjp-job-post-box-header h2{
+	padding-top: 0;
+}
+.cjp-job-post-group .cjp-job-post-box .cjp-btn-apply{
+	font-size: 1em;
+	margin-top: 20px;
+}
+.cjp-job-post-group .cjp-job-extra-information-box--single{
+	border: none;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.cjp-job-post-group .cjp-job-extra-information-box--single > div{
+	width: 25%;
+}
+
+.cjp-job-post-group .cjp-navigation-group{
+	margin-top: 40px;
+	padding: 0;
+}
+
+.cjp-job-post-group .cjp-navigation-group li a,
+.cjp-job-post-group .cjp-navigation-group li a:hover,
+.cjp-job-post-group .cjp-navigation-group li.active a,
+.cjp-job-post-group .cjp-navigation-group li.disabled {
+	color: #fff;
+	text-decoration:none;
+}
+
+.cjp-job-post-group .cjp-navigation-group > ul{
+	padding: 0;
+	margin: 0;
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+.cjp-job-post-group .cjp-navigation-group li {
+	display: inline-block;
+}
+
+.cjp-job-post-group .cjp-navigation-group li a,
+.cjp-job-post-group .cjp-navigation-group li a:hover,
+.cjp-job-post-group .cjp-navigation-group li.active a,
+.cjp-job-post-group .cjp-navigation-group li.disabled {
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 3px;
+	cursor: pointer;
+	padding: 10px 15px;
+	transition: 250ms all;
+}
+
+.cjp-job-post-group .cjp-navigation-group li a:hover,
+.cjp-job-post-group .cjp-navigation-group li.active a {
+	background-color: rgba(0,0,0,1);
+	transition: 250ms all;
+}
+
+@media only screen and (max-width: 767px){
+	.cjp-job-post-group{
+		padding: 20px 15px;
+	}
+	.cjp-job-post-group .cjp-job-extra-information >div{
+		width: 100%;
+		padding: 15px 0;
+	}
+	.cjp-job-post-group .cjp-job-extra-information-box--single > div{
+		padding: 0;
+	}
+}

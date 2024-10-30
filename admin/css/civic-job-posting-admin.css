@@ -1,0 +1,85 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+/*--- Jobs ---*/
+
+.cjp_field{
+    margin: 50px 0;
+}
+.cjp_field h3{
+    font-size: 1.5em;
+}
+.cjp-field-group{
+    margin: 30px 0;
+}
+.cjp-field-group label{
+    width: 205px;
+    display: inline-block;
+}
+.cjp-field-group select{
+    display: inline-block;
+    padding: 4px 10px;
+    width: calc(100% - 215px);
+    height: auto;
+}
+.cjp-field-group input[type=text], .cjp-field-group input[type=url], .cjp-field-group input[type=email], .cjp-field-group input[type=number]{
+    padding: 5px 10px;
+    display: inline-block;
+    width: calc(100% - 215px);
+}
+.cjp-field-group label{
+    font-weight: 700;
+}
+
+.cjp-note-box{
+    margin-top: 30px;
+    display: table;
+    padding: 15px 20px;
+    background: #fff9b6;
+    border-color: #fff9b6;
+    box-shadow: 0 1px 0 #fff9b6;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #fff9b6, 1px 0 1px #fff9b6, 0 1px 1px #fff9b6, -1px 0 1px #fff9b6;
+
+}
+.cjp_field{
+    margin: 40px 0;
+}
+.cjp_field h3{
+    text-decoration: underline;
+}
+.cjp-field-group input[type="checkbox"]{
+    width: auto;
+}
+.cjp-field-group select[multiple]{
+    height: 175px;
+}
+.cjp-field-group select option:checked{
+    background: #1aab8e -webkit-linear-gradient(bottom, rgba(0, 115, 170,1) 0%, rgba(0, 115, 170,1) 100%);
+    background: #1aab8e linear-gradient(bottom, rgba(0, 115, 170,1) 0%, rgba(0, 115, 170,1) 100%);
+    color:#fff;
+}
+.post-type-civic-job-posting #poststuff #titlewrap.cjp-mandatory-field{
+    padding: 5px;
+    margin: 5px 0;
+    background: #ffebe8;
+    border: 1px solid #c00;
+}
+
+.post-type-civic-job-posting #poststuff #titlewrap.cjp-mandatory-field #title-required-msj{
+    padding: 5px 0;
+}
+
+/*--- Settings ---*/
+
+.cjp-container{
+    margin: 40px 0;
+}
+.cjp-container header{
+    margin-bottom: 30px;
+}
+.cjp-container #cjp-form-settings-indexing{
+    margin-top: 30px;
+}
